@@ -33,12 +33,36 @@ public class Loopsn_d4 {
 	//odd numbers: 1 3 5 7 9
 		for (int odd=1; odd<10; odd=odd+2) {
 			System.out.println(odd); //1 3 5 7 9
+			
+			
+		}
+		System.out.println("-----");
+		//see video till 30 min
+		for (int p=1; p<=10;) {
+			System.out.println(p);
+			//p++;
+			p=p+1;
+		}
+		System.out.println("......");
+		
+		//
+		for (int h=1; h<=100; h++) {
+			System.out.println(h);
+			if(h % 5 ==0);{
+				System.out.println("Hiii");
+			}
+				
 		}
 		
-		//see video till 30 min
-	
-		
+		//3- Do While Loop
+		int n=1;
+		do{
+			System.out.println("n");
+			n++;
+		}
+		while(n<=10);
+		}
 		
 	}
 
-}
+
